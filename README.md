@@ -42,7 +42,7 @@
 
 ## 📚 Data Source and Citation
 
-- This project uses the [Heart Failure Clinical Records dataset] from Kaggle.
+- This project uses the [Heart Failure Clinical Records dataset] from Kaggle.  
   (https://www.kaggle.com/datasets/andrewmvd/heart-failure-clinical-data)
 - Provider: Andrew Mvd
 - License: CC BY 4.0
