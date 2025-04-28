@@ -2,7 +2,7 @@
 
 ## ✨ Research Purpose
 - Heart Failure Clinical Records 데이터세트 기반
-- 다양한 머신러닝 모(RandomForest, LogisiticRegression, LightGBM, ANN 등)을 비교
+- 다양한 머신러닝 모델(RandomForest, LogisiticRegression, LightGBM, ANN 등)을 비교
 - 가장 적합한 예측 모델 도출
 
 ## Experiment Versions
