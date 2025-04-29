@@ -1,57 +1,54 @@
-# Heart Failure Prediction
+# Heart Failure Prediction - README
 
-## ✨ Research Purpose
-- Heart Failure Clinical Records 데이터세트 기반
-- 다양한 머신러닝 모델(RandomForest, LogisiticRegression, LightGBM, ANN 등)을 비교
-- 가장 적합한 예측 모델 도출
+> *This study was conducted as part of an undergraduate thesis project.*
 
-## Experiment Versions
-| Version | Description | Purpose | Note |
-|-----|-----|-----|----|
-| (1) Feature selection | preprocessing using R | Select significant features | 주요 Feature만 선정 |
-| (2) Train-Only SMOTE | Main experiment(apply SMOTE only to train) |Follow ML standard | EDA included |
-| (3) Full SMOTE | Sub experiment (apply SMOTE to full before split) |For comparison with previous cases|Forcus on perfomance difference of tree-based models(트리 기반 모델 성능 차이 비교|
+## 📌 Overview
+This project aims to predict mortality risk in heart failure patients using clinical data and to compare multiple machine learning models to identify the best-performing model.
 
-## 📂 File Management Plan
-| File_name | Info |
-|---|---|
-|heart_failure_preprocessing| Data preprocessing (using R) (데이터 전처리) |
-|heart_failure_final | Train-only SMOTE experiment |
-|heart_failure_SMOTE | Full SMOTE experiment (to be added) |
+## 📂 File Information
+| File Name | Description |
+|:---|:---|
+| `heart_failure_preprocessing` | Data preprocessing (R) |
+| `heart_failure_final` | Main experiment (Train-only SMOTE) |
+| `heart_failure_SMOTE` | Sub experiment (Full SMOTE, to be added) |
+| `experiment_summary.md` | Detailed experimental design and results summary |
 
-## 🔢 Models Used
+## ⚙️ Models Used
 - RandomForestClassifier
 - LogisticRegression
 - DecisionTreeClassifier
-- SVC (probability=True)
+- SVC (with probability=True)
 - LightGBM (LGBMClassifier)
 - MLPClassifier (ANN)
 
 ## 📊 Evaluation Metrics
-- Accuracy(정확도)
-- Precision(정밀도)
-- Recall(재현율)
+- Accuracy
+- Precision
+- Recall
 - F1-score
-- ROC Curve + AUC
+- ROC Curve and AUC
+  
+## 🔖 Summary
+- Main experiment: Applied SMOTE only to the training set to reflect real-world evaluation conditions.
+- Sub experiment: Applied SMOTE to the entire dataset before splitting to observe the performance changes.
 
-## Experiment Progress
-| Item | Status |
-|---|---|
-|Train-only SMOTE experiment | Completed |
-|Full SMOTE experiment |In progress |
+Detailed results and full explanations are provided in `experiment_summary.md`.
 
-## 📚 Data Source and Citation
+## 📈 Results Overview
 
-- This project uses the [Heart Failure Clinical Records dataset] from Kaggle.  
-  (https://www.kaggle.com/datasets/andrewmvd/heart-failure-clinical-data)
+
+
+
+
+## **📚 Data Source and Citation**
+- This project uses the [Heart Failure Clinical Records dataset] from Kaggle.(https://www.kaggle.com/datasets/andrewmvd/heart-failure-clinical-data)
 - Provider: Andrew Mvd
 - License: CC BY 4.0
-
-### Acknowledgements
-- Dataset based on the research by Davide Chicco and Giuseppe Jurman
-
-### Citation
+**Acknowledgements**  
+- Dataset based on the research by Davide Chicco and Giuseppe Jurman 
+**Citation**  
 Davide Chicco, Giuseppe Jurman.  
 *Machine learning can predict survival of patients with heart failure from serum creatinine and ejection fraction alone.*  
-BMC Medical Informatics and Decision Making, 20, 16 (2020).  
+BMC Medical Informatics and Decision Making, 20, 16 (2020).
 [Paper Link](https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-1023-5)
+
