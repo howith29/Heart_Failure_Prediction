@@ -41,11 +41,14 @@ Detailed results and full explanations are provided in `experiment_summary.md`.
 
 
 ## **📚 Data Source and Citation**
-- This project uses the [Heart Failure Clinical Records dataset] from Kaggle.(https://www.kaggle.com/datasets/andrewmvd/heart-failure-clinical-data)
-- Provider: Andrew Mvd
+- This project uses the [Heart Failure Clinical Records dataset] from Kaggle.  
+  (https://www.kaggle.com/datasets/andrewmvd/heart-failure-clinical-data)  
+- Provider: Andrew Mvd  
 - License: CC BY 4.0
+
 **Acknowledgements**  
-- Dataset based on the research by Davide Chicco and Giuseppe Jurman 
+- Dataset based on the research by Davide Chicco and Giuseppe Jurman
+  
 **Citation**  
 Davide Chicco, Giuseppe Jurman.  
 *Machine learning can predict survival of patients with heart failure from serum creatinine and ejection fraction alone.*  
