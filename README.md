@@ -10,7 +10,7 @@ This project aims to predict mortality risk in heart failure patients using clin
 |:---|:---|
 | `heart_failure_preprocessing` | Data preprocessing (R) |
 | `heart_failure_final` | Main experiment (Train-only SMOTE) |
-| `heart_failure_SMOTE` | Sub experiment (Full SMOTE, to be added) |
+| `heart_failure_SMOTE` | Sub experiment (Full SMOTE) |
 | `experiment_summary.md` | Detailed experimental design and results summary |
 
 ## ⚙️ Models Used
