@@ -8,10 +8,10 @@ This project aims to predict mortality risk in heart failure patients using clin
 ## 📂 File Information
 | File Name | Description |
 |:---|:---|
-| `heart_failure_preprocessing` | Data preprocessing (R) |
-| `heart_failure_final` | Main experiment (Train-only SMOTE) |
-| `heart_failure_SMOTE` | Sub experiment (Full SMOTE) |
-| `experiment_summary.md` | Detailed experimental design and results summary |
+| [Heart_Failure_Preprocessing](Heart_Failure_Preprocessing.R) | Data preprocessing (R) |
+| [Heart_Failure_Final](Heart_Failure_Final.ipynb) | Main experiment (Train-only SMOTE) |
+| [Heart_Failure_SMOTE](Heart_Failure_SMOTE.ipynb) | Sub experiment (Full SMOTE) |
+| [Experiment_Summary.md](Experiment_Summary.md) | Detailed experimental design and results summary |
 
 ## ⚙️ Models Used
 - RandomForestClassifier
