@@ -82,6 +82,7 @@ Models compared: Logistic Regression, Decision Tree, Random Forest, LightGBM, AN
 
 - main experiment
 <img src="https://github.com/user-attachments/assets/854a1607-8136-4f1d-9dc5-780d94fe62f3" width="500"/>
+
 ```
                Model  Accuracy  Precision    Recall  F1-score       AUC
 0  LogisticRegression  0.755556   0.682927  0.756757  0.717949  0.868944
@@ -94,6 +95,7 @@ Models compared: Logistic Regression, Decision Tree, Random Forest, LightGBM, AN
 
 - sub experiment
 <img src="https://github.com/user-attachments/assets/5e694523-1025-443c-b7e1-2b2d688daf54" width="500"/>
+  
 ```
                Model  Accuracy  Precision    Recall  F1-score       AUC
 0        RandomForest  0.877049   0.878788  0.892308  0.885496  0.940486
