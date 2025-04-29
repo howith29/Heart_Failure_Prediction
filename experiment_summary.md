@@ -6,7 +6,7 @@
 - Compare model performance across different balancing strategies (Train-only SMOTE vs Full SMOTE).
 - Identify the most effective and generalizable predictive model.
    
-※ This study was conducted as part of an undergraduate thesis project.
+※ *This study was conducted as part of an undergraduate thesis project.*
 ## 2. Key Results Summary
 
 - **Train-only SMOTE** : Logistic Regression achieved the best AUC (0.8689).
