@@ -41,7 +41,7 @@ This study aimed to identify the optimal machine learning model for predicting h
 - **Train-only SMOTE**: SMOTE was applied only to the training set to maintain the original class distribution in the test set, reflecting real-world scenarios.
 - **Full SMOTE**: SMOTE was applied to the entire dataset before splitting to create a fully balanced dataset, allowing models to learn from equally distributed classes.
 
-Models compared: Logistic Regression, Decision Tree, Random Forest, LightGBM, ANN, and SVM.
+Models compared: Logistic Regression, Decision Tree, Random Forest, LightGBM, ANN, SVM.
 
 ## 7. Preprocessing
 - No missing values were found in the dataset.
