@@ -109,8 +109,7 @@ Models compared: Logistic Regression, Decision Tree, Random Forest, LightGBM, AN
 
 ## 10. Conclusion
 - Logistic Regression showed strong performance in binary classification of heart failure mortality.
-- Model performance was significantly affected by the scope of SMOTE application, with full SMOTE favoring tree-based models such as Random Forest and LightGBM.
-- SMOTE-generated synthetic samples enhanced the learning process of tree-based models by aligning with their splitting mechanisms.
+- Applying SMOTE to the full dataset significantly improved the performance of tree-based models, as the synthetic samples better matched their splitting structures.
 - Random Forest was the most stable and consistently high-performing model across all experimental conditions.
 
 - - -
