@@ -1,5 +1,7 @@
 # Heart Failure Prediction - Experiment Summary
 
+※ This study was conducted as part of an undergraduate thesis project.
+
 ## 1. Research Purpose
 - Predict mortality risk in heart failure patients using clinical data.
 - Develop machine learning models to enable early detection and management.
