@@ -10,7 +10,7 @@
 ## 2. Key Results Summary
 
 - **Train-only SMOTE** : Logistic Regression achieved the best AUC (0.8689).
-- **Full SMOTE** : Random Forest achieved the best AUC (0.9405).
+- **Full SMOTE** : Random Forest achieved the best AUC (0.9405).  
 Tree-based models showed superior performance, particularly after full SMOTE application.
 
 - - -
