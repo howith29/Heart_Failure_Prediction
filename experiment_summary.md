@@ -7,12 +7,9 @@
 - Identify the most effective and generalizable predictive model.
 
 ## 2. Background
-
 Heart failure (HF) is a condition where the heart cannot pump enough blood to meet the body's needs, leading to serious complications such as arrhythmias, organ failure, and sudden death.  
 According to the Korean Heart Failure Fact Sheet 2022, the prevalence of HF in Korea increased from 0.77% in 2002 to 2.58% in 2020, with mortality rising from 3.0 to 15.6 per 100,000 people [1].  
 As HF advances, multi-organ dysfunction may require heart and multi-organ transplantation. Early prediction is crucial for timely treatment, complication prevention, and healthcare cost reduction, highlighting the need for machine learning-based risk prediction models.  
-- - -
-[1] The Korean Society of Heart Failure, "2022 Korean Heart Failure Fact Sheet," 2022. [Online]. Available: https://www.kshf.or.kr
 
 ## 3. Related Work
 Previous studies have demonstrated the effectiveness of machine learning models for predicting heart failure.  
@@ -21,10 +18,6 @@ Previous studies have demonstrated the effectiveness of machine learning models 
 - **Lee (2022)** [3]:  
   Used a heart failure clinical record dataset; tree-based models (LGBM, Random Forest) showed superior performance (LGBM accuracy: 96.76%).  
 Both studies highlight that tree-based models generally outperform regression-based approaches in heart failure prediction, motivating this study to focus on Decision Tree, Random Forest, LGBM, Logistic Regression, and SVM.
-- - -
-**References**  
-[2] Fahd Saleh Alotaibi, "Implementation of Machine Learning Model to Predict Heart Failure Disease," *International Journal of Advanced Computer Science and Applications (IJACSA)*, Vol. 10, No. 6, 2019.  
-[3] HeeJeong Jasmine Lee, "Comparative Study on Prediction of Mortality in Heart Failure Patients using Nine Machine Learning Algorithms," *Journal of KIIT*, Vol. 20, No. 9, pp. 105-114, 2022.
 
 ## 4. Data Source and Citation
 - Dataset: [Heart Failure Clinical Records](https://www.kaggle.com/datasets/andrewmvd/heart-failure-clinical-data) (Kaggle)  
@@ -79,4 +72,9 @@ Additional variables like creatinine_phosphokinase and platelets were explored f
 - Logistic Regression was competitive in the original (imbalanced) setting
 - RandomForest was the most stable top-performer across both experiments
 
+- - -
+## References
+[1] The Korean Society of Heart Failure, "2022 Korean Heart Failure Fact Sheet," 2022. [Online]. Available: https://www.kshf.or.kr  
+[2] Fahd Saleh Alotaibi, "Implementation of Machine Learning Model to Predict Heart Failure Disease," *International Journal of Advanced Computer Science and Applications (IJACSA)*, Vol. 10, No. 6, 2019.    
+[3] HeeJeong Jasmine Lee, "Comparative Study on Prediction of Mortality in Heart Failure Patients using Nine Machine Learning Algorithms," *Journal of KIIT*, Vol. 20, No. 9, pp. 105-114, 2022.  
 
