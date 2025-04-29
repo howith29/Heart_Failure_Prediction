@@ -36,6 +36,7 @@ Detailed results and full explanations are provided in `experiment_summary.md`.
 
 ## 📈 Results Overview
 
+![image](https://github.com/user-attachments/assets/854a1607-8136-4f1d-9dc5-780d94fe62f3)
 
 
 
