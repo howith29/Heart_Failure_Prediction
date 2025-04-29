@@ -1,4 +1,4 @@
-# Heart Failure Prediction
+# 🫀 Heart Failure Prediction
 
 > *This study was conducted as part of an undergraduate thesis project.*
 
@@ -28,7 +28,7 @@ This project aims to predict mortality risk in heart failure patients using clin
 - F1-score
 - ROC Curve and AUC
   
-## 🔖 Summary
+## 	✨ Summary
 - Main experiment: Applied SMOTE only to the training set to reflect real-world evaluation conditions.
 - Sub experiment: Applied SMOTE to the entire dataset before splitting to observe the performance changes.
 
