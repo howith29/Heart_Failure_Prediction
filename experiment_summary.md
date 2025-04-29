@@ -71,10 +71,12 @@ Models compared: Logistic Regression, Decision Tree, Random Forest, LightGBM, AN
 **Main experiment (Train-only SMOTE):**
 - Best AUC: Logistic Regression (0.8689), followed by RandomForest and LightGBM.
 - SVM had highest accuracy (0.80), but lower AUC compared to tree-based models.
+  
 **Sub experiment (Full SMOTE):**
 - Best AUC: RandomForest (0.9405), followed by ANN and LightGBM.
 - Overall performance of tree-based models improved significantly under full SMOTE.
 
+- - -
 
 - main experiment
 
@@ -99,7 +101,7 @@ Models compared: Logistic Regression, Decision Tree, Random Forest, LightGBM, AN
 4        DecisionTree  0.770492   0.849057  0.692308  0.762712  0.880972
 5                 SVM  0.762295   0.800000  0.738462  0.768000  0.876653
 ```
-
+- - -
 
 ## 10. Conclusion
 - Tree-based models (RandomForest, LightGBM) showed strong performance.
