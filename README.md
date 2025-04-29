@@ -1,4 +1,4 @@
-# Heart Failure Prediction - README
+# Heart Failure Prediction
 
 > *This study was conducted as part of an undergraduate thesis project.*
 
@@ -32,14 +32,13 @@ This project aims to predict mortality risk in heart failure patients using clin
 - Main experiment: Applied SMOTE only to the training set to reflect real-world evaluation conditions.
 - Sub experiment: Applied SMOTE to the entire dataset before splitting to observe the performance changes.
 
-Detailed results and full explanations are provided in `experiment_summary.md`.
+Detailed results and full explanations are provided in `experiment_summary.md`
 
 ## 📈 Results Overview
 
-![image](https://github.com/user-attachments/assets/854a1607-8136-4f1d-9dc5-780d94fe62f3)
+<img src="https://github.com/user-attachments/assets/854a1607-8136-4f1d-9dc5-780d94fe62f3" width="500"/>
 
-
-
+<img src="https://github.com/user-attachments/assets/5e694523-1025-443c-b7e1-2b2d688daf54" width="500"/>
 
 ## **📚 Data Source and Citation**
 - This project uses the [Heart Failure Clinical Records dataset] from Kaggle.  
